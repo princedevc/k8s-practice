@@ -1,4 +1,4 @@
-## This yaml file ensures that if this job fails to run within 30 seconds then an error should occur based on line 8 
+## This yaml file ensures that if this job takes more than 30 seconds to run then it should terminate based on line 8 
 apiVersion: batch/v1
 kind: Job
 metadata:
